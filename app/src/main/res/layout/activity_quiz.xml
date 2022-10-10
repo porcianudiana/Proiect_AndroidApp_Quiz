@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".QuizActivity"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/porcianu_andreea_diana_tv_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/guess_the_famous_hotels_from_the_next_photos"
+        android:textAlignment="center"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/rosu_sangeriu"
+        style="@style/QuestionsStyle"
+        />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="308dp"
+       android:id="@+id/porcianu_andreea_diana_iv1"
+       app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_tv_quiz"
+       android:layout_marginTop="32dp"
+       android:orientation="vertical"
+       android:src="@drawable/burj_al_arab"
+
+
+
+       />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv1"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/burj_al_arab_hotel_dubai"
+            android:textColor="@color/rosu_sangeriu"
+            style="@style/OptionsStyle"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/burj_khalifa_hotel_dubai"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/four_seasons_hotel"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv2"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/plaza_new_york"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv2"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/aurelius_hotel_poiana_brasov"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_plaza_new_york_hotel"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/le_bristol_hotel_paris"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv3"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/hotel_ritz_paris"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv3"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b7"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_shelbourne_hotel_dublin"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b8"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/atlantis_bahamas_hotel"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b9"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_ritz_hotel_paris"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv4"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/marina_bay_sands"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv4"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b10"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/emirates_palace_abu_dhabi"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b11"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/marina_bay_sands_singapore"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b12"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_ritz_hotel_paris"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv5"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/the_king_david_ierusalim"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv4"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b13"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_bellagio_nevada"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b14"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/atlantis_bahamas_hotel"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b15"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_king_david_hotel_jerusalem"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv6"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/le_chateau_quebec"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv5"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b16"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/le_chateau_quebec"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b17"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/chateau_marmont_hotel_california"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b18"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_ritz_hotel_paris"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/porcianu_andreea_diana_iv7"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        android:src="@drawable/caesar_palace_las_vegas"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/porcianu_andreea_diana_radio_group7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/porcianu_andreea_diana_iv3"
+        >
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b19"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/caeser_palace_las_vegas"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"
+            />
+
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b20"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/the_king_david_hotel_jerusalem"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+        <RadioButton
+            android:id="@+id/porcianu_andreea_diana_b21"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/burj_al_arab_hotel_dubai"
+            style="@style/OptionsStyle"
+            android:textColor="@color/rosu_sangeriu"/>
+
+
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/porcianu_andreea_diana_see_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_the_score"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/circle"
+        android:textColor="@color/red_for_text_start"
+        style="@style/StartButtonStyle"
+        android:layout_gravity="center_vertical|center_horizontal"
+
+        />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>

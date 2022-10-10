@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HotelQuiz</string>
+    <string name="guess_the_famous_hotels_from_the_next_photos">Guess the famous hotels from the next photos</string>
+    <string name="burj_al_arab_hotel_dubai">Burj al Arab Hotel Dubai</string>
+    <string name="burj_khalifa_hotel_dubai">Burj Khalifa Hotel Dubai</string>
+    <string name="four_seasons_hotel">Four Seasons Hotel</string>
+    <string name="aurelius_hotel_poiana_brasov">Aurelius Hotel Poiana Brasov</string>
+    <string name="the_plaza_new_york_hotel">The Plaza New York Hotel</string>
+    <string name="le_bristol_hotel_paris">Le Bristol Hotel Paris</string>
+    <string name="the_shelbourne_hotel_dublin">The Shelbourne Hotel Dublin</string>
+
+    <string name="the_ritz_hotel_paris">The Ritz Hotel Paris</string>
+    <string name="emirates_palace_abu_dhabi">Emirates Palace Abu Dhabi</string>
+    <string name="marina_bay_sands_singapore">Marina Bay Sands Singapore</string>
+
+    <string name="the_bellagio_nevada">The Bellagio Nevada</string>
+    <string name="atlantis_bahamas_hotel">Atlantis Bahamas Hotel</string>
+    <string name="the_king_david_hotel_jerusalem">The King David Hotel Jerusalem</string>
+    <string name="le_chateau_quebec">Le Chateau Quebec</string>
+    <string name="chateau_marmont_hotel_california">Chateau Marmont Hotel California</string>
+
+    <string name="caeser_palace_las_vegas">Caeser Palace Las Vegas</string>
+
+
+    <string name="start_quiz">Start Quiz!</string>
+    <string name="see_the_score">See the score</string>
+    <string name="congratulations_your_score_is">Congratulations! Your score is:</string>
+</resources>
